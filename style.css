@@ -20,6 +20,25 @@
   color: rgba(255, 255, 255, 1) !important;
 }
 
+/*Home*/
+#home {
+  height: 100vh;
+  background-size: cover;
+  background-position: 50% 15%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to left, rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('https://res.cloudinary.com/dnwjfznt6/image/upload/v1584446743/charlotte_pjcyke.jpg');
+  position: relative;
+}
+
+.down-arrow {
+  font-size:18px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  right: 50%;
+}
+
 /*Contact*/
 #contact {
   text-align: center;
