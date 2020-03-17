@@ -39,16 +39,24 @@
   right: 50%;
 }
 
-/*Contact*/
-#contact {
+/*pages*/
+.page-container {
   text-align: center;
   padding: 10%;
 }
 
-#contact h2 {
+.page-container h2 {
   font-size: 24px;
   margin-bottom: 2em;
 }
+
+/*Portfolio*/
+
+
+/*About*/
+
+
+/*Contact*/
 
 #contact-infos {
   display: flex;
