@@ -54,19 +54,15 @@
 .project {
   display: flex;
   justify-content: center;
-  height: 40vh;
 }
 
 .project-content {
   flex-grow: 1;
 }
 
-.projesct-img {
-  height: 674px;
-  width: 362px;
-  min-width: 362px;
-  position: relative;
-
+.project-display {
+  height: 80vh;
+  max-width: 362px;
 }
 
 
