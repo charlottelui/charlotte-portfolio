@@ -1,0 +1,21 @@
+/*Nav*/
+.navbar-home {
+  justify-content: space-between !important;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-home .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-home .navbar-brand img {
+  width: 160px;
+}
+
+.navbar-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.navbar-link:hover {
+  color: rgba(255, 255, 255, 1) !important;
+}
