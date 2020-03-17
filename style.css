@@ -54,15 +54,63 @@
 .project {
   display: flex;
   justify-content: center;
+  margin-top: 2em;
+}
+
+.project-select {
+  margin: 0 1em 0 1em;
+  color: rgb(80, 80, 80);
+  text-decoration: none;
+}
+
+.project-select:hover {
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+}
+
+.project-select.active {
+  color: black;
+  font-weight: 600;
+  border-bottom: 2px solid black;
 }
 
 .project-content {
   flex-grow: 1;
+  text-align: left;
+  padding: 3em;
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.08);
+  margin: 3em;
+  border-radius: 1em;
+}
+
+.project-content h3 {
+  margin-top: 1em;
+  font-size: 24px;
+}
+
+.project-logo {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.project-logo h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+
+}
+
+.project-logo img {
+  height: 30px;
 }
 
 .project-display {
-  height: 80vh;
+  /*height: 80vh;*/
   max-width: 362px;
+}
+
+.project-img {
+  height: 80vh;
 }
 
 

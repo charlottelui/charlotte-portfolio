@@ -51,12 +51,12 @@
     <div class="page-container" id="portfolio">
       <h2>PORTFOLIOS</h2>
       <div class="projects-selector">
-        <a href="#" class="project-select">RESPET</a>
-        <a href="#" class="project-select">Waste-List</a>
-        <a href="#" class="project-select">Mr. Cocktails</a>
+        <a href="#" class="project-select active" filter-type="respet">RESPET</a>
+        <a href="#" class="project-select" filter-type="waste-list">Waste-List</a>
+        <a href="#" class="project-select" filter-type="cocktail">Mr. Cocktails</a>
       </div>
 
-      <div id="respet" class="project">
+      <div id="respet" class="project" filter-type="respet">
         <div class="project-display">
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -90,16 +90,21 @@
           </div>
         </div>
         <div class="project-content">
-          <p>An app aims to help animal in need.</p>
+          <div class="project-logo">
+            <h2>RESPET</h2>
+            <img src="https://res.cloudinary.com/dnwjfznt6/image/upload/v1584480614/Portfolio/respet/logo_goevty.png" alt="RESPET">
+          </div>
+          <h3>About</h3>
+          <p>An app aims to help animal in need. User can find near by medicial centers, post lost & found animals, adopt a new friend.</p>
         </div>
 
       </div>
 
-      <div id="waste-list" class="project">
+      <div id="waste-list" class="project" filter-type='waste-list'>
 
       </div>
 
-      <div id="cocktail" class="project">
+      <div id="cocktail" class="project" filter-type='cocktail'>
 
       </div>
     </div>
