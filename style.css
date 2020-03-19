@@ -75,13 +75,12 @@
   position: relative;
 }
 
-.down-arrow {
-  font-size:18px;
-  text-align: center;
+#home-intro {
   color: white;
+  text-align: right;
   position: absolute;
-  bottom: 0px;
-  right: 50%;
+  left: 20%;
+  top: 40%;
 }
 
 /*pages*/
