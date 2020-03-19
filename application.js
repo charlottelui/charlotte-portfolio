@@ -42,5 +42,5 @@ const initFilter = () => {
   })
 }
 
-initFilter();
 initUpdateNavbarOnScroll();
+initFilter();
