@@ -1,6 +1,11 @@
 /*Nav*/
 .navbar-home {
   justify-content: space-between !important;
+  background: transparent;
+  transition: 0.5s background-color ease;
+}
+
+.navbar-colored {
   background: rgba(0, 0, 0, 0.7);
 }
 
