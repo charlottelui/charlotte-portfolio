@@ -51,12 +51,12 @@
     <div class="page-container" id="portfolio">
       <h2>PORTFOLIOS</h2>
       <div id="projects-selector">
-        <a href="#portfolio" class="project-select active" filter-type="respet">RESPET</a>
-        <a href="#portfolio" class="project-select" filter-type="waste-list">Waste-List</a>
-        <a href="#portfolio" class="project-select" filter-type="cocktail">Mr. Cocktails</a>
+        <a href="#portfolio" class="project-select active" data-project-name="respet">RESPET</a>
+        <a href="#portfolio" class="project-select" data-project-name="waste-list">Waste-List</a>
+        <a href="#portfolio" class="project-select" data-project-name="cocktail">Mr. Cocktails</a>
       </div>
 
-      <div id="respet" class="project" filter-type="respet">
+      <div id="respet" class="project" data-project-name="respet">
         <div class="project-display">
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -100,12 +100,26 @@
 
       </div>
 
-      <div id="waste-list" class="project" filter-type='waste-list'>
-
+      <div id="waste-list" class="d-none project" data-project-name='waste-list'>
+        <div class="project-content">
+          <div class="project-logo">
+            <h2>Waste-List</h2>
+            <img src="" alt="Waste-List">
+          </div>
+          <h3>About</h3>
+          <p>This is a website that allows users to sell their unwanted items.</p>
+        </div>
       </div>
 
-      <div id="cocktail" class="project" filter-type='cocktail'>
-
+      <div id="cocktail" class="d-none project" data-project-name='cocktail'>
+        <div class="project-content">
+          <div class="project-logo">
+            <h2>Mr. Cocktail</h2>
+            <img src="" alt="Mr. Cocktail">
+          </div>
+          <h3>About</h3>
+          <p>A website that display different cocktail recipes in details. It also allows user to create abd update recipes.</p>
+        </div>
       </div>
     </div>
     <!-- Portfolio end -->
