@@ -150,11 +150,12 @@
 
 .project-display {
   /*height: 80vh;*/
-  max-width: 362px;
+  max-width: 50%;
 }
 
 .project-img {
-  height: 80vh;
+  max-height: 80vh;
+  max-width: 50vh;
 }
 
 
