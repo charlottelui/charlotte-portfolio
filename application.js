@@ -12,6 +12,7 @@ const initUpdateNavbarOnScroll = () => {
   }
 }
 
+// project filters
 const filterProject = () => {
   const activeProject = document.querySelector('.project-select.active')
   document.querySelectorAll('.project').forEach((project) => {
@@ -42,5 +43,13 @@ const initFilter = () => {
   })
 }
 
+// scroll smooth
+const scrollSmooth = () => {
+  const portfolio = document.getElementById("portfolio");
+  portfolio.scrollIntoView({behavior: "smooth", block: "center"});
+}
+
+
+// scrollSmooth()
 initUpdateNavbarOnScroll();
 initFilter();
