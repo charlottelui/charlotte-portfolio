@@ -45,11 +45,16 @@ const initFilter = () => {
 
 // scroll smooth
 const scrollSmooth = () => {
-  const portfolio = document.getElementById("portfolio");
-  portfolio.scrollIntoView({behavior: "smooth", block: "center"});
+  const targets = document.querySelectorAll(".scroll-smooth");
+  targets.forEach((target) => {
+    target.addEventListener("click", () => {
+      let page = document.getElementById(target.dataset.value)
+      page.scrollIntoView({behavior: "smooth", block: "center"});
+    })
+  })
 }
 
 
-// scrollSmooth()
+scrollSmooth();
 initUpdateNavbarOnScroll();
 initFilter();
