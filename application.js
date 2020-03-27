@@ -49,7 +49,7 @@ const scrollSmooth = () => {
   targets.forEach((target) => {
     target.addEventListener("click", () => {
       let page = document.getElementById(target.dataset.value)
-      page.scrollIntoView({behavior: "smooth", block: "center"});
+      page.scrollIntoView({behavior: "smooth", block: "start"});
     })
   })
 }
