@@ -179,6 +179,16 @@
   /*max-width: 80vh;*/
 }
 
+.carousel {
+    position: relative;
+    max-width: 42vh;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 42vh;
+    overflow: hidden;
+}
 
 /*About*/
 

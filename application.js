@@ -16,6 +16,7 @@ const initUpdateNavbarOnScroll = () => {
 const filterProject = () => {
   const activeProject = document.querySelector('.project-select.active')
   document.querySelectorAll('.project').forEach((project) => {
+    event.preventDefault()
     if (project.dataset.projectName === activeProject.dataset.projectName) {
       project.classList.remove ('d-none')
     } else {
