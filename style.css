@@ -184,14 +184,25 @@ body {
   /*max-width: 80vh;*/
 }
 
-.carousel {
+.carousel-mobile {
     position: relative;
     max-width: 42vh;
 }
 
-.carousel-inner {
+.carousel-inner-mobile {
     position: relative;
     width: 42vh;
+    overflow: hidden;
+}
+
+.carousel {
+  position: relative;
+  max-width: 80vh;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 80vh;
     overflow: hidden;
 }
 
