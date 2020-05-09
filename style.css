@@ -70,6 +70,14 @@ body {
   font-weight: 500;
 }
 
+.nav-item {
+  cursor: pointer;
+}
+
+.logo {
+  cursor: pointer;
+}
+
 /*Home*/
 #home {
   height: 100vh;
