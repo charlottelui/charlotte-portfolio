@@ -135,7 +135,7 @@ body {
   border-bottom: 2px solid black;
 }
 
-.project-content {
+.project-content-mobile {
   box-shadow: 0px 1px 4px rgba(0,0,0,0.08);
   border-radius: 1em;
   text-align: left;
@@ -144,7 +144,7 @@ body {
 
 }
 
-.project-content h3 {
+.project-content-mobile h3 {
   margin-top: 1em;
   font-size: 24px;
 }
@@ -181,7 +181,7 @@ body {
 
 .project-img {
   height: 80vh;
-  /*max-width: 80vh;*/
+  max-width: 80vh;
 }
 
 .carousel-mobile {
